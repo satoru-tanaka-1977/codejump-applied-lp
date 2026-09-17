@@ -28,7 +28,7 @@ CODEJUMPの課題を通して、LPならではの構成や、スクロール連�
 
 ## Demo
 
-（公開URLをここに貼る）
+https://satoru-tanaka-1977.github.io/codejump-applied-lp/
 
 ## 制作状況
 
