@@ -176,149 +176,149 @@ li {
   margin-bottom: 120px;
 }
 #mainvisual .text {
-    position: absolute;
-    top: 280px;
-    left: 10%;
-    z-index: 10;
+  position: absolute;
+  top: 280px;
+  left: 10%;
+  z-index: 10;
 }
 #mainvisual .text .title {
-    font-size: 2.875rem;
-    font-weight: bold;
-    margin-bottom: 30px;
-    text-shadow: 0 4px 6px #fff;
+  font-size: 2.875rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+  text-shadow: 0 4px 6px #fff;
 }
 #mainvisual .text .btn {
-    background-color: #ff2a2a;
-    border-bottom: solid 6px #9a0413;
-    border-radius: 10px;
-    color: #fff;
-    font-size: 1.5rem;
-    display: block;
-    padding: 15px 35px;
-    text-align: center;
-    transition: 0.3s;
-    position: relative;
+  background-color: #ff2a2a;
+  border-bottom: solid 6px #9a0413;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 1.5rem;
+  display: block;
+  padding: 15px 35px;
+  text-align: center;
+  transition: 0.3s;
+  position: relative;
 }
 #mainvisual .text .btn::after {
-    content: "";
-    width: 16px;
-    height: 16px;
-    border-top: solid 3px #fff;
-    border-right: solid 3px #fff;
-    transform: rotate(45deg);
-    position: absolute;
-    top: 26px;
-    right: 30px;
+  content: "";
+  width: 16px;
+  height: 16px;
+  border-top: solid 3px #fff;
+  border-right: solid 3px #fff;
+  transform: rotate(45deg);
+  position: absolute;
+  top: 26px;
+  right: 30px;
 }
 #mainvisual .text .btn:hover {
-    transform: scale(1.05);
-    opacity: 0.9;
+  transform: scale(1.05);
+  opacity: 0.9;
 }
 #mainvisual .fade li {
-width: 75%;
-position: absolute;
-top: 0;
-right: 0;
-opacity: 0;
-animation: fade 15s infinite;
+  width: 75%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  opacity: 0;
+  animation: fade 15s infinite;
 }
 #mainvisual .fade li:nth-child(1) {
-    animation-delay: 0s;
+  animation-delay: 0s;
 }
 #mainvisual .fade li:nth-child(2) {
-    animation-delay: 5s;
+  animation-delay: 5s;
 }
 #mainvisual .fade li:nth-child(3) {
-    animation-delay: 10s;
+  animation-delay: 10s;
 }
 #mainvisual .fade li img {
-    width: 100%;
-    height: 720px;
-    object-fit: cover;
+  width: 100%;
+  height: 720px;
+  object-fit: cover;
 }
 #mainvisual .fade li::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    box-shadow: inset 0px 0px 20px 20px #fff;
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  box-shadow: inset 0px 0px 20px 20px #fff;
 }
 @keyframes fade {
-    0% {
-        opacity: 0;
-    }
-    15% {
-        opacity: 1;
-    }
-    30% {
-        opacity: 1;
-    }
-    45% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 0;
-    }
+  0% {
+    opacity: 0;
+  }
+  15% {
+    opacity: 1;
+  }
+  30% {
+    opacity: 1;
+  }
+  45% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
 }
 
 /* リーズン */
 
 #reason {
-    margin-bottom: 120px;
+  margin-bottom: 120px;
 }
 #reason .bg {
-    background-color: #ff2a2a;
-    padding: 80px 0;
+  background-color: #ff2a2a;
+  padding: 80px 0;
 }
 #reason .slide {
-    width: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #fff;
-    padding: 5%;
-    /* opacity: 0; */
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  padding: 5%;
+  opacity: 0;
 }
 #reason .slide img {
-    width: auto;
-    height: 60px;
-    margin-right: 30px;
+  width: auto;
+  height: 60px;
+  margin-right: 30px;
 }
 #reason .slide .title {
-    color: #ff2a2a;
-    display: block;
-    font-size: 1.75rem;
-    font-weight: bold;
+  color: #ff2a2a;
+  display: block;
+  font-size: 1.75rem;
+  font-weight: bold;
 }
 #reason .slide .text {
-    display: block;
-    font-size: 1.125rem;
+  display: block;
+  font-size: 1.125rem;
 }
 #reason .inview-slide-left {
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
-    margin-bottom: 40px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  margin-bottom: 40px;
 }
 #reason .inview-slide-right {
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
 }
 #reason .slide-left {
-    animation: slide-left 0.5s ease-out 0s 1 forwards;
+  animation: slide-left 0.5s ease-out 0s 1 forwards;
 }
 @keyframes slide-left {
-    0% {
-        transform: translateX(-50%);
-    }
-    100% {
-        opacity: 1;
-        transform: translateX(0);
-    }
+  0% {
+    transform: translateX(-50%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
 #reason .slide-right {
-    animation: slide-right 0.5s ease-out 0s 1 forwards;
+  animation: slide-right 0.5s ease-out 0s 1 forwards;
 }
 @keyframes slide-right {
   0% {
@@ -327,5 +327,86 @@ animation: fade 15s infinite;
   100% {
     opacity: 1;
     transform: translateX(100%);
+  }
+}
+
+/* ボイス */
+
+#voice {
+  margin-bottom: 120px;
+}
+#voice .item-left,
+#voice .item-right {
+  display: flex;
+  align-items: flex-start;
+  /* opacity: 0; */
+  margin-bottom: 60px;
+}
+#voice .item-left {
+  justify-content: flex-start;
+}
+#voice .item-left:last-of-type {
+  margin-bottom: 0;
+}
+#voice .item-right {
+  justify-content: flex-end;
+}
+#voice .student img {
+  width: 120px;
+  background-color: #ccc;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+#voice .student .name {
+  font-size: 0.75rem;
+  text-align: center;
+}
+#voice .item-left .balloon-text,
+#voice .item-right .balloon-text {
+  width: 60%;
+  padding: 20px;
+  background-color: #e9f1fb;
+  border-radius: 15px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+#voice .item-left .balloon-text {
+  margin-left: 25px;
+}
+#voice .item-left .balloon-text::before {
+  content: "";
+  position: absolute;
+  top: 60%;
+  left: 0;
+  margin-left: -30px;
+  border: 15px solid transparent;
+  border-right: 15px solid #e9f1fb; 
+}
+#voice .item-right .balloon-text {
+  margin-right: 25px;
+}
+#voice .item-right .balloon-text::before {
+  content: "";
+  position: absolute;
+  top: 60%;
+  right: 0;
+  margin-right: -30px;
+  border: 15px solid transparent;
+  border-left: 15px solid #e9f1fb;
+}
+/* 吹き出しの出現アニメーション */
+#voice .balloon {
+  animation: balloon 0.5s ease-out 0s 1 forwards;
+}
+
+@keyframes balloon {
+  0% {
+    transform: scale(0.1);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
   }
 }
