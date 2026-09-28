@@ -440,7 +440,7 @@ li {
   padding: 60px;
   margin-bottom: 32px;
 }
-#summary .menu li:nth-child(n+3){
+#summary .menu li:nth-child(n + 3) {
   margin-bottom: 0;
 }
 #summary .menu-title {
@@ -459,12 +459,12 @@ li {
   margin-bottom: 30px;
 }
 
-  /* エントリー */
+/* エントリー */
 
-  #entry {
-    margin-bottom: 120px;
-    text-align: center;
-  }
+#entry {
+  margin-bottom: 120px;
+  text-align: center;
+}
 
 #entry .title {
   font-size: 2rem;
@@ -490,4 +490,39 @@ li {
 #entry .btn:hover {
   background-color: #fff;
   color: #ff2a2a;
+}
+
+/* フッター　 */
+
+#footer {
+  background-color: #e8e8e8;
+  padding: 60px 0 20px;;
+}
+#footer a {
+  font-size: 0.875rem;
+  transition: 0.3s;
+}
+#footer a:hover {
+  opacity: 0.8;
+}
+#footer .inner {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+#footer .inner > li {
+  width: calc(100%/4);
+}
+#footer .inner .title {
+  font-weight: bold;
+}
+#footer .inner .menu {
+  padding: 10px 0 0 10px;
+}
+#footer .inner .menu li {
+  margin-bottom: 3px;
+}
+#footer .copyright {
+  text-align: center;
+  font-size: 0.625rem;
 }
