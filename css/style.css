@@ -608,11 +608,10 @@ li {
   #mainvisual .text .btn {
     width: 100%;
   }
-}
 
 /* リーズン */
 
-#reason  {
+#reason {
   margin-bottom: 80px;
 }
 #reason .bg {
@@ -652,7 +651,7 @@ li {
   text-align: center;
 }
 #voice .item-left,
-.item-right {
+#voice .item-right {
   margin-bottom: 40px;
 }
 #voice .item-left {
@@ -664,7 +663,75 @@ li {
   align-items: center;
 }
 #voice .item-left .balloon-text,
-.item-right .balloon-text {
+#voice .item-right .balloon-text {
   width: 100%;
   margin: 0 0 30px 0;
+}
+#voice .item-left .balloon-text::before,
+#voice .item-right .balloon-text::before {
+  top: 100%;
+  border: 15px solid transparent;
+  border-top: 15px solid #e9f1fb;
+}
+#voice .item-left .balloon-text::before {
+  margin-left: calc(50% - 15px);
+}
+#voice .item-right .balloon-text::before {
+  margin-right: calc(50% - 15px);
+}
+
+/* サマリー */
+
+#summary {
+  margin-bottom: 80px;
+}
+#summary .menu {
+  flex-direction: column;
+}
+#summary .menu li {
+  width: 100%;
+  padding: 30px;
+}
+#summary .menu li:nth-child(3) {
+  margin-bottom: 32px;
+}
+#summary .menu-title .ja {
+  font-size: 1.5rem;
+}
+#summary .menu-title .en {
+  font-size: 1rem;
+}
+
+/* エントリー */
+#entry {
+  margin-bottom: 80px;
+}
+#entry .title {
+  font-size: 1.5rem;
+}
+#entry .catchphrase {
+  font-size: 1rem;
+}
+#entry .btn {
+  font-size: 1.5rem;
+}
+
+/* フッター */
+
+#footer .inner {
+  flex-wrap: wrap;
+}
+#footer a {
+  font-size: 0.75rem;
+}
+#footer .inner .title {
+  font-size: 0.9375rem;
+}
+#footer .inner > li {
+  width: 50%;
+}
+#footer .inner > li:nth-child(1),
+#footer .inner > li:nth-child(2) {
+  margin-bottom: 30px;
+}
 }
