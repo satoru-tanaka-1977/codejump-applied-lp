@@ -32,4 +32,4 @@ https://satoru-tanaka-1977.github.io/codejump-applied-lp/
 
 ## 制作状況
 
-制作中(2026.9.18〜)
+完成(2026.9.18〜9.30)
