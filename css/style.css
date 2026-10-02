@@ -152,6 +152,7 @@ li {
   margin: 0 auto;
   position: relative;
   transition: 0.3s ease-in-out;
+  font-weight: bold;
 }
 #navi .btn::after {
   content: "　";
